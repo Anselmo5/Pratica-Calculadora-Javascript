@@ -1,6 +1,30 @@
 body{
 
+    animation-name: background;
+ animation-duration: 10s;
+ animation-direction: alternate;
+ animation-iteration-count: infinite;
+ background:linear-gradient( to right,#27173D,#4D2C78,#693CA3,#4D2C78,#27173D,#170D24,#030205 ) ;
+ background-size: 500%;
+   
+   
 }
+
+@keyframes background{
+
+    0%{
+        background-position-x: 0%;
+    }
+    
+    100%{
+        background-position-x: 100%;
+    }
+    
+    
+    }
+    
+
+
 
 .tudo{
     background-color: black;
@@ -13,7 +37,7 @@ body{
     margin: 200px auto;
     border-radius: 13px;
     padding: 14px;
-    box-shadow: inset 1px 1px 3px 3px darkgray;
+    box-shadow: inset 2px 2px 3px 3px darkgray;
 }
 
 
@@ -30,7 +54,7 @@ body{
     margin: -180px auto;
     height: 50px ;
     width:375px ;
-    box-shadow: inset 1px 1px 2px 3px darkgray;
+    box-shadow: inset 1px 1px 3px 3px darkgray;
    
 }
 
